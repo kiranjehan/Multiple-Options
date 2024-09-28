@@ -1,0 +1,86 @@
+body{
+    font-family:sans-serif;
+    background-color: rgb(6, 6, 104);
+}
+img{
+    margin-top: 25px;
+    margin-left:15%;
+    cursor:pointer ;
+
+}
+.id {
+    width: 10%;
+    float:right;
+    margin-right:15% ;
+    margin-top:50px ;
+    background: transparent;
+    color: #ffff;
+    border-radius:5px ;
+    padding: 5px;
+    text-align: center;
+    border: 2px solid #00eeff;
+    cursor: pointer;
+}
+.id:focus{
+    outline-color:#ffff00;
+
+}
+ #qns{
+    cursor: pointer;
+ }
+
+h1{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    color: beige;
+    font-size:50px;
+    font-style:italic;
+    margin-top:25px;
+    cursor: pointer;
+}
+
+
+ .container{
+    width:440px;
+    /* margin-left:33%; */
+    background-color: rgb(178, 204, 228);
+    /* margin-top:10px; */
+    padding: 11px;
+    margin:auto;
+  
+ }
+ 
+.head{
+    text-align:center;
+    padding: 11px;
+    font-size: 50px;
+    font-style:bold;
+    font-weight:bold;
+    
+}
+.quiz{
+    margin-left:11px;
+}
+
+h2{
+    font-size:25px;
+    font-weight:bold;
+    color: rgb(40, 39, 44);
+}
+
+.btn {
+    text-align:center;
+    padding:11px; 
+ } 
+
+ button {
+    width: 140px;
+    height: 40px;
+    background-color: blue;
+    color: aliceblue;
+    font-size: 24px;
+    border:none;
+    outline-color:none;
+    border-radius:4px;
+}
